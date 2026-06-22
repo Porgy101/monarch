@@ -1,6 +1,6 @@
 {
   "name": "monarch",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "compatibility_date": "2026-06-22",
   "observability": {
     "enabled": false
