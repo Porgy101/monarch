@@ -1,17 +1,16 @@
-
 {
   "name": "monarch",
   "main": "src/main.js",
   "compatibility_date": "2026-06-22",
   "observability": {
-    "enabled": false
-    "head_sampling_rate": 1,
+    "enabled": false,
+    "head_sampling_rate" : 1,
     "persist": true,
     "invocation_logs": true
   },
   "traces": {
     "enabled": false,
     "persist": true,
-    "head_sampling_rate": 1,
+    "head_sampling_rate": 1
   }
 }
