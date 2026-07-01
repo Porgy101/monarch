@@ -426,22 +426,7 @@ function initEditMode() {
   let editToggle = document.getElementById('editToggle');
   let editToast  = document.getElementById('editToast');
 
-  if (!editToggle) {
-    editToggle = document.createElement('button');
-    editToggle.id        = 'editToggle';
-    editToggle.className = 'edit-toggle';
-    editToggle.title     = 'Toggle Edit Mode';
-    editToggle.textContent = '✏';
-    document.body.appendChild(editToggle);
-  }
 
-  if (!editToast) {
-    editToast = document.createElement('div');
-    editToast.id        = 'editToast';
-    editToast.className = 'edit-toast';
-    editToast.innerHTML = 'Edit Mode <span id="editStatus">ON</span>';
-    document.body.appendChild(editToast);
-  }
 
   const editStatus = document.getElementById('editStatus');
   const STORAGE_KEY = 'monarchEditableContent';
